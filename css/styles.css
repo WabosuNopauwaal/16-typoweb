@@ -14,10 +14,21 @@ div {
   background-color: yellow;
   color: crimson;
   text-align: center;
-  }
+}
 
 html {
   scroll-behavior: smooth;
   background-color: crimson;
+  max-width: 270;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  color: crimson;
+}
+
+a:hover {
+  color: blueviolet;
 }
 
