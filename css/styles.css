@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Danbury PERSONAL USE';
+  src: url('DanburyPERSONALUSE-Regular.woff2') format('woff2'),
+      url('DanburyPERSONALUSE-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+div {
+  font-family: 'Danbury PERSONAL USE';
+  border: 2px solid yellow;
+  border-radius: 12px;
+  background-color: yellow;
+  color: crimson;
+  text-align: center;
+  }
+
+html {
+  scroll-behavior: smooth;
+  background-color: crimson;
+}
+

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Danbury PERSONAL USE';
+    src: url('DanburyPERSONALUSE-Regular.woff2') format('woff2'),
+        url('DanburyPERSONALUSE-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
