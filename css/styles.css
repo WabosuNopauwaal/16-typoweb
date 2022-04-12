@@ -92,6 +92,9 @@ html {
   scroll-behavior: smooth;
   max-width: 400px;
   margin: auto;
+}
+
+body {
   background-color: #CAD2D9;
 }
 
@@ -146,3 +149,23 @@ a:visited {
   width: auto;
 }
 
+.card-overview {
+  padding: 50px 25px;
+}
+
+.alphabet-sentence {
+ border: solid 2px black;
+ border-radius: 18px;
+}
+
+.card-overview p {
+ border: solid 2px black;
+ border-radius: 18px;
+}
+
+
+
+footer {
+  background-color: #FF8700;
+  color: white;
+}
