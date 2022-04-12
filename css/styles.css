@@ -92,6 +92,7 @@ html {
   scroll-behavior: smooth;
   max-width: 400px;
   margin: auto;
+  background-color: #CAD2D9;
 }
 
 .button {
