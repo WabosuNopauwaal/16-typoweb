@@ -34,6 +34,62 @@ font-weight: 700;
 font-style: italic;
 }
 
+.cap2-re {
+font-family: capitolium-2, serif;
+font-weight: 300;
+font-style: normal;
+}
+
+.cap2-bo {
+  font-family: capitolium-2, serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.co-headline-li {
+  font-family: co-headline, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.co-headline-re {
+font-weight: 400;
+font-style: normal;
+font-family: co-headline, sans-serif;
+}
+.co-headline-bo {
+  font-family: co-headline, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.co-text-li {
+  font-family: co-text, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.co-text-re {
+  font-weight: 400;
+  font-style: normal;
+  font-family: co-headline, sans-serif;
+  }
+
+.co-text-bo {
+  font-family: co-headline, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.title-co {
+  font-family: co-text, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #FF8700;
+}
+  
+
+
 html {
   scroll-behavior: smooth;
   max-width: 400px;
