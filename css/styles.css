@@ -87,8 +87,6 @@ font-family: co-headline, sans-serif;
   font-style: normal;
   color: #FF8700;
 }
-  
-
 
 html {
   scroll-behavior: smooth;
@@ -96,6 +94,18 @@ html {
   margin: auto;
 }
 
-
+.button {
+  background-color: #FF8700;
+  border-radius: 25px;
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  font-style: normal;
+  font-family: co-headline, sans-serif;
+  padding: 9px 12px;
+}
+a:visited {
+  color: white;
+}
 
 
