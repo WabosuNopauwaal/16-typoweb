@@ -101,14 +101,15 @@ body {
 .button {
   background-color: #FF8700;
   border-radius: 25px;
-  text-decoration: none;
   color: white;
   font-weight: 400;
   font-style: normal;
   font-family: co-headline, sans-serif;
   padding: 9px 12px;
   font-size: 14px;
+  text-decoration: none;
 }
+
 a:visited {
   color: white;
 }
@@ -180,4 +181,8 @@ a:visited {
 footer {
   background-color: #FF8700;
   color: white;
+}
+
+footer a {
+  text-decoration: none;
 }
