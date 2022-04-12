@@ -163,6 +163,18 @@ a:visited {
  border-radius: 18px;
 }
 
+.font-style-title {
+  font-size: 7px;
+  color: #FF8700;
+}
+
+.first-bar {
+  border: solid 2px #FF8700;
+}
+
+.second-bar {
+  border: solid 2px #FF8700;
+}
 
 
 footer {
