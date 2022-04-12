@@ -104,6 +104,7 @@ html {
   font-style: normal;
   font-family: co-headline, sans-serif;
   padding: 9px 12px;
+  font-size: 14px;
 }
 a:visited {
   color: white;
@@ -112,7 +113,20 @@ a:visited {
 .card {
   border-radius: 45px;
   background-color: white;
-  margin: 82px 20px;
+  margin: 82px 5px;
 }
 
+.card-text {
+ text-align: center;
+ padding: 75px 20px 65px 36px;
+}
+.card-text h2 {
+ margin-bottom: 40px;
+ font-size: 20px;
+}
 
+.card-text p {
+  text-align: left;
+  font-size: 12px;
+  margin-bottom: 36px;
+}
