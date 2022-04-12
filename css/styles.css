@@ -4,30 +4,11 @@ font-weight: 400;
 font-style: normal;
 }
 
-
-div {
-  font-family: co-headline, sans-serif;
-  border: 2px solid yellow;
-  border-radius: 12px;
-  background-color: yellow;
-  color: crimson;
-  text-align: center;
-  padding: 50px;
-}
-
 html {
   scroll-behavior: smooth;
-  background-color: crimson;
-  max-width: 100;
+  max-width: 400px;
   margin: auto;
 }
 
-a {
-  text-decoration: none;
-  color: crimson;
-}
 
-a:hover {
-  color: blueviolet;
-}
 
