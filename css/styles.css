@@ -109,4 +109,9 @@ a:visited {
   color: white;
 }
 
+.card {
+  border-radius: 45px;
+  background-color: white;
+}
+
 
