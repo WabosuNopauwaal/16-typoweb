@@ -130,3 +130,19 @@ a:visited {
   font-size: 12px;
   margin-bottom: 36px;
 }
+
+.ex-separation-bar {
+  background-color: #FF8700;
+  text-align: center;
+  color: white;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.separation-bar {
+  background-color: #FF8700;
+  text-align: center;
+  color: white;
+  width: auto;
+}
+
