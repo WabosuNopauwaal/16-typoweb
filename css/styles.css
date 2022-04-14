@@ -85,7 +85,7 @@ font-family: co-headline, sans-serif;
   font-family: co-text, sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: #FF8700;
+  color: white;
 }
 
 html {
@@ -96,6 +96,10 @@ html {
 
 body {
   background-color: #CAD2D9;
+}
+
+header {
+  background-color: #FF8700;
 }
 
 .button {
@@ -124,25 +128,25 @@ a:visited {
  text-align: center;
  padding: 75px 20px 65px 36px;
 }
-.card-text h2 {
- margin-bottom: 40px;
- font-size: 20px;
-}
 
+.card-text-font h2 {
+ font-size: 20px;
+ text-align: center;
+}
 .card-text p {
   text-align: left;
   font-size: 12px;
   margin-bottom: 36px;
 }
 
-.ex-separation-bar {
-  background-color: #FF8700;
-  text-align: center;
-  color: white;
-  margin-left: 60px;
-  margin-right: 60px;
+.card-text-font img{
+  width: 26px;
 }
 
+.card-text-font {
+  font-size: 14px;
+  padding: 55px 17px 55px 40px;
+}
 .separation-bar {
   background-color: #FF8700;
   text-align: center;
