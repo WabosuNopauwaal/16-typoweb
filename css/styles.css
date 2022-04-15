@@ -97,13 +97,18 @@ html {
 
 body {
   background-color: #CAD2D9;
+  background-image: url("img/bg-deco-up");
+  background-image: url("img/bg-deco-down");
 }
 
 header {
   background-color: #FF8700;
   color: white;
 }
-.menue {
+.bg-deco-up .bg-deco-down {
+  color: #FF8700;
+}
+.menu {
  display: flex;
  flex-direction: row;
  justify-content: space-around;
@@ -115,12 +120,14 @@ header {
 
 .window-deco-1 {
   width: 515px;
-  align-self: center;
+  display: flex;
+  flex-direction: row;
 }
 
 .window-deco-2 {
   width: 515px;
-  align-self: center;
+  display: flex;
+  flex-direction: row;
 }
 .button-1 {
   background-color: #FF8700;
@@ -224,24 +231,27 @@ a:visited {
   border-radius: 18px;
 }
 
-.card-cara img {
+.fifi {
  width: 190px;
+ margin: 44px 70px 48px 70px;
 } 
 
 .font-style-title {
-  font-size: 7px;
+  font-size: 12px;
   color: #FF8700;
   padding: 17px 290px 0px 8px;
 }
 
 .first-bar {
   border: solid 2px #FF8700;
-  margin: 2px 120px 8px 20px;
+  margin: 2px 120px 15px 20px;
+  font-size: 34px;
 }
 
 .second-bar {
   border: solid 2px #FF8700;
   margin: 0px 13px 25px 125px;
+  font-size: 34px;
 }
 
 
