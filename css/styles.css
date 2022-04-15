@@ -121,9 +121,11 @@ header {
  color: white;
  text-decoration: none;
  font-style: normal;
-font-family: co-headline, sans-serif;
-font-weight: 700;
-padding: 10px 20px;
+ font-family: co-headline, sans-serif;
+ font-weight: 700;
+ font-size: 33px;
+ padding: 6px 60px;
+ margin-bottom: 82px;
 }
 
 a:visited {
@@ -173,11 +175,16 @@ a:visited {
 .alphabet-sentence {
  border: solid 2px black;
  border-radius: 18px;
+ font-size: 25px;
+}
+.ex-text {
+ font-size: 12px;
 }
 
 .card-overview p {
- border: solid 2px black;
- border-radius: 18px;
+  border: solid 2px black;
+  border-radius: 18px;
+  
 }
 
 .font-style-title {
