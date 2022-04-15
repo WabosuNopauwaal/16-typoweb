@@ -96,17 +96,21 @@ html {
 
 body {
   background-color: #CAD2D9;
-  background-image: url("img/bg-deco-up");
-  background-image: url("img/bg-deco-down");
 }
 
 header {
-  background-color: #FF8700;
+  background-color: #FF8000;
   color: white;
 }
 
-.bg-deco-up .bg-deco-down {
-  color: #FF8700;
+
+.bg-header {
+  background-image: url("../img/bg-header.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0px 100px 0px;
 }
 
 .menu {
@@ -119,12 +123,12 @@ header {
   font-size: 290px;
 }
 
-.window-deco-1 .window-deco-2{
+/* .window-deco-1 .window-deco-2{
   width: 515px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
+} */
 
 
 .button-1 {
