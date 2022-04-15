@@ -147,6 +147,7 @@ a:visited {
  font-size: 20px;
  text-align: center;
 }
+
 .card-text p {
   text-align: left;
   font-size: 12px;
@@ -154,7 +155,8 @@ a:visited {
 }
 
 .card-text-font img{
-  width: 26px;
+  width: 300px;
+  text-align: center;
 }
 
 .card-text-font {
