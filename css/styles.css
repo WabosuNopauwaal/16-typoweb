@@ -186,8 +186,11 @@ a:visited {
 .card-overview p {
   border: solid 2px black;
   border-radius: 18px;
-  
 }
+
+.card-cara img {
+ width: 190px;
+} 
 
 .font-style-title {
   font-size: 7px;
