@@ -130,6 +130,8 @@ a {
 
 .bg-main {
   background-image: url("../img/bg-deco-main.svg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .button-1 {
@@ -229,10 +231,14 @@ a:visited {
 
 .fifi {
   width: 190px;
-  /*margin: 44px 70px 48px 70px;*/
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+}
+
+.card-cara {
+  padding: 44px 74px;
+}
+
+.card-testing {
+  padding: 17px 13px;
 }
 
 .font-style-title {
