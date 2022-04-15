@@ -174,13 +174,24 @@ a:visited {
   padding: 50px 25px;
 }
 
+.element-deco-1 {
+  padding: 0px 105px 82px 21px;
+}
+
+.element-deco-2 {
+  padding: 0px 0px 21px 80px;
+}
+
 .alphabet-sentence {
  border: solid 2px black;
  border-radius: 18px;
- font-size: 25px;
+ font-size: 23px;
+ padding: 12px 15px 10px 15px;
+ margin: 0px 25px 45px 25px;
 }
 .ex-text {
  font-size: 12px;
+ padding: 34px 20px 50px 20px;
 }
 
 .card-overview p {
