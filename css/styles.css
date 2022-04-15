@@ -156,7 +156,7 @@ a {
   font-weight: 700;
   font-size: 33px;
   padding: 6px 60px;
-  margin-bottom: 82px;
+  margin: 74px 100px 82px 100px;
 }
 
 a:visited {
@@ -240,7 +240,10 @@ a:visited {
 }
 
 .card-cara {
-  padding: 45px 64px 48px 64px;
+  padding: 40px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .card-overview p {
