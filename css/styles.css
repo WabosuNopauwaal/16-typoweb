@@ -131,7 +131,7 @@ a {
 .bg-main {
   background-image: url("../img/bg-deco-main.svg");
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: fix;
 }
 
 .button-1 {
@@ -208,6 +208,14 @@ a:visited {
   padding: 50px 25px;
 }
 
+.element-deco-1 {
+  margin: 0px 105px 15px 0px;
+}
+
+.element-deco-2 {
+  margin: 0px 0px 40px 80px;
+}
+
 .ov-coco {
   padding: 36px 24px 10px 24px;
 }
@@ -224,21 +232,20 @@ a:visited {
   padding: 34px 20px 50px 20px;
 }
 
-.card-overview p {
-  border: solid 2px black;
-  border-radius: 18px;
-}
-
 .fifi {
   width: 190px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .card-cara {
-  padding: 44px 74px;
+  padding: 45px 64px 48px 64px;
 }
 
-.card-testing {
-  padding: 17px 13px;
+.card-overview p {
+  border: solid 2px black;
+  border-radius: 18px;
 }
 
 .font-style-title {
@@ -257,6 +264,10 @@ a:visited {
   border: solid 2px #ff8700;
   margin: 0px 13px 25px 125px;
   font-size: 34px;
+}
+
+.card-testing {
+  padding: 17px 13px;
 }
 
 footer {
