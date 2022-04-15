@@ -91,6 +91,7 @@ font-family: co-headline, sans-serif;
 html {
   scroll-behavior: smooth;
   max-width: 400px;
+  height: auto;
   margin: auto;
 }
 
@@ -102,7 +103,25 @@ header {
   background-color: #FF8700;
   color: white;
 }
+.menue {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+} 
 
+.animation {
+  font-size: 290px;
+}
+
+.window-deco-1 {
+  width: 515px;
+  align-self: center;
+}
+
+.window-deco-2 {
+  width: 515px;
+  align-self: center;
+}
 .button-1 {
   background-color: #FF8700;
   border-radius: 25px;
@@ -142,7 +161,6 @@ a:visited {
  text-align: center;
  padding: 75px 20px 65px 36px;
 }
-
 
 .card-text p {
   text-align: left;
