@@ -130,7 +130,7 @@ a {
 
 .bg-main {
   background-image: url("../img/bg-deco-main.svg");
-  background-repeat: no-repeat;
+  background-repeat: space;
   background-attachment: fix;
 }
 
@@ -176,20 +176,14 @@ a:visited {
 
 .card-text p {
   text-align: left;
-  font-size: 12px;
+  font-size: 13px;
+  margin-top: 40px;
   margin-bottom: 46px;
-  padding-top: 40px;
 }
 
 .card-text-font {
   font-size: 14px;
-  padding: 55px 17px 55px 40px;
-}
-
-.card-text-font img {
-  width: auto;
-  margin: 10px 0px 0px 0px;
-  padding: 0px 50px 0px 10px;
+  padding: 55px 17px 40px 17px;
 }
 
 .card-text-font h2 {
@@ -234,9 +228,6 @@ a:visited {
 
 .fifi {
   width: 190px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .card-cara {
@@ -274,10 +265,18 @@ a:visited {
 }
 
 footer {
+  margin-top: 100px;
   background-color: #ff8700;
   color: white;
 }
 
-footer a {
-  text-decoration: none;
+.logo {
+  width: 50px;
+  margin: 0px 160px 19px 160px;
 }
+
+.credit {
+  width: 310px;
+  margin: 16px 42px;
+}
+
